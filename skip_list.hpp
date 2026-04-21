@@ -8,6 +8,8 @@
 #include <vector>
 #include <optional>
 #include <random>
+#include <ctime>
+#include <cstdlib>
 
 template <typename T>
 class SkipList {
@@ -126,4 +128,3 @@ public:
 };
 
 #endif // SKIP_LIST_HPP
-
